@@ -1,0 +1,47 @@
+@import "variables";
+
+nav{
+	background-color: $colorTres;
+	border:solid ;
+	border-color: $colorCinco;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+
+
+    ul{
+	/* estilo de listas */
+	display: flex;
+}
+
+	li{
+		list-style: none;
+	}
+
+    li a{
+	text-decoration: none;	
+	font-weight:400;
+	padding: 15px 15px;
+
+	color: $colorUno;
+    font-size: larger;
+
+}
+
+    a:hover{
+	color: $colorSeis;
+
+}
+img{
+    width: 100px;
+	height: 100px;
+
+	border:solid 2px;
+	border-radius: 2px;
+	border-color: $colorUno;
+}
+}
